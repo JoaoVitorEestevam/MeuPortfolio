@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(53, 53, 53);
+  margin: 0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  min-height: 100vh;
+  }
+  h1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0;
+  }
+
+.btns{
+  min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+width: 30%;
+
+}
+  
+.btns button{
+  width: 50%;
+background-color: rgb(189, 189, 189); 
+border-color: rgb(189, 189, 189);
+border-style: solid;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+border-radius: 100px;
+height: 50px;
+
+}
+
+.btns button:hover{
+  background-color: black;
+color:white;  
+border-color: white;
+}
+#btnSobre{
+  margin: 0% 0% 0% 0%;
+
+}
+#btnProjetos{
+  margin: 30% 0% 30% 0%;
+
+}
+
+  main{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+   height: fit-content;
+    border: solid 10px rgb(27, 27, 27);
+    border-radius: 10px;
+  
+  }
+  .projetos{
+background-color: black;
+width: 100%;
+min-height: 70vh;
+height: fit-content;
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .projeto{
+    background-color: rgb(27, 27, 27);
+    width: 60%;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px rgb(87, 87, 87);
+    border-radius: 10px;
+  }
+  .projeto p{
+    margin: 0;
+    color: white;
+    margin: 0% 0% 1% 0%;
+  }
+  .img{
+    width: 100%;
+    height: 100%;
+    
+      }
+  .sobre{
+   color: white;
+   font-size: 30px;
+   margin: 0% 0% 0% 5%; 
+  }
+  .contatos{
+    background-color:rgb(219, 219, 219) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 30%;
+    position: absolute;  
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 10px;
+     bottom: 2%;
+     left: 4.5%;
+  }
+  .contatos a{
+    margin: 0% 0% 5% 0%;
+  }
+  .contatos h3{
+    position: absolute;
+    top: -11%;
+  }
+  .contatos p{
+    margin: 0% 0% 3% 0%;
+  }
+  #mensagem{
+    color:  white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*position: absolute;
+    top: 0;
+    right: 0;*/
+    width: 100%;
+    height: 50px;
+    margin: 0% 0% 1% 0%;
+    font-size: 30px;
+  }
+  .painelemensagem{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 0% 0% 5%;
+  }
