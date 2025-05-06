@@ -4,7 +4,7 @@ const main = document.getElementById("painel");
 const mensagem = document.getElementById("mensagem");
 btns.addEventListener("click" , function(event) {
 mensagem.innerHTML = '<span>Bem Vindo! Meu Nome é João Vitor Estevam</span>'; 
-    main.innerHTML = '<p class = "sobre">Sou um desenvolvedor estudante e atualmente estou apenas fazendo projetos pessoais e buscando oportunidades, visando me aprimorar como programador, a linguagem de programação que foco em dominar é o Java, também tenho um conhecimento moderado em MySQL</p>';
+    main.innerHTML = '<p class = "sobre">Sou um desenvolvedor estudante e atualmente estou apenas fazendo projetos pessoais e buscando oportunidades, visando me aprimorar como programador, a linguagem de programação que foco em dominar é o Java</p>';
 
 })
 btnp.addEventListener("click", function(event){
